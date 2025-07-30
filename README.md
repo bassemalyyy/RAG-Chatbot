@@ -117,24 +117,6 @@ Chatbot: The document discusses the application of machine learning in natural l
 
 ```
 
-Contributing
-------------
-
-Contributions are welcome! To contribute:
-
-1.  Fork the repository.
-2.  Create a new branch (`git checkout -b feature-branch`).
-3.  Make your changes and commit (`git commit -m "Add new feature"`).
-4.  Push to the branch (`git push origin feature-branch`).
-5.  Open a pull request.
-
-Please ensure your code follows the existing style and includes appropriate documentation.
-
-License
--------
-
-This project is licensed under the MIT License. See the [LICENSE](https://grok.com/chat/LICENSE) file for details.
-
 Acknowledgments
 ---------------
 
