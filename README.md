@@ -1,67 +1,76 @@
-This repository includes two tools for building and interacting with a Retrieval-Augmented Generation (RAG) system over PDF documents using [LlamaIndex](https://www.llamaindex.ai/):
+Simple RAG System for PDF Documents
+===================================
 
-- `simple-rag.ipynb`: A notebook version for development and exploration.
+Welcome to the **Simple RAG System** repository! This project provides two tools to build and interact with a Retrieval-Augmented Generation (RAG) system for PDF documents using [LlamaIndex](https://www.llamaindex.ai/). Explore and query your PDFs with ease using either a Jupyter Notebook for development or a user-friendly Streamlit app for real-time interaction.
 
-- `simple_rag_streamlit.py`: A user-friendly Streamlit app for real-time PDF upload, indexing, and querying.
+* * * * *
 
----
+📂 Features
+-----------
 
-## 📂 Features
+-   ✅ **Upload and Parse PDFs**: Process any PDF document for indexing and querying.
+-   ✅ **OpenAI Embeddings**: Leverage powerful embeddings for accurate content retrieval.
+-   ✅ **Natural Language Queries**: Ask questions in plain language and get AI-generated answers.
+-   ✅ **Live Indexing Status**: Streamlit app displays real-time indexing progress.
+-   ✅ **LlamaIndex-Powered**: Utilizes LlamaIndex for efficient vector storage and retrieval.
 
-✅ Upload and parse any PDF  
+* * * * *
 
-✅ Index content using OpenAI embeddings  
+🔧 Requirements
+---------------
 
-✅ Query indexed content via natural language  
+To get started, install the required dependencies using pip:
 
-✅ Streamlit version shows live indexing status  
-
-✅ Uses LlamaIndex for vector storage and retrieval
-
----
-
-## 🔧 Requirements
-
-Install dependencies via pip:
-
-```bash
-
-pip install streamlit llama-index openai
 ```
+pip install streamlit llama-index openai
+
+```
+
+> **Note**: Ensure you have a valid OpenAI API key configured in your environment for embeddings.
+
+* * * * *
 
 🚀 Usage
+--------
 
-🔬 Notebook Version
+This repository includes two tools for interacting with the RAG system:
 
-```bash
+### 🔬 Notebook Version (`simple-rag.ipynb`)
 
-jupyter notebook simple-rag.ipynb
-```
+Ideal for development, experimentation, and step-by-step exploration.
 
-Modify the path to your desired PDF.
+1.  Launch the notebook:
 
-Run cells to index and interact.
+    ```
+    jupyter notebook simple-rag.ipynb
 
-🌐 Streamlit App
+    ```
 
-```bash
+2.  Update the PDF file path in the notebook to point to your desired document.
+3.  Run the cells to index the PDF and interact with the RAG system via queries.
 
-streamlit run simple-rag-streamlit.py
-```
+### 🌐 Streamlit App (`simple_rag_streamlit.py`)
 
-Upload a PDF file.
+A user-friendly interface for real-time PDF processing and querying.
 
-Wait for the indexing progress.
+1.  Run the Streamlit app:
 
-Enter your query and receive an AI-generated answer.
+    ```
+    streamlit run simple_rag_streamlit.py
 
+    ```
+
+2.  Upload a PDF file through the web interface.
+3.  Monitor the indexing progress in real-time.
+4.  Enter a query in natural language and receive an AI-generated response.
+
+* * * * *
 
 🧠 Credits
+----------
 
-Built using:
+This project is built using the following technologies:
 
-LlamaIndex
-
-Streamlit
-
-Ollama
+-   [LlamaIndex](https://www.llamaindex.ai/): For vector storage and retrieval.
+-   [Streamlit](https://streamlit.io/): For the interactive web interface.
+-   [Ollama](https://ollama.com/): For LLM and Embedding models.
