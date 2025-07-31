@@ -9,7 +9,7 @@ Welcome to the **Simple RAG System** repository! This project provides two tools
 -----------
 
 -   ✅ **Upload and Parse PDFs**: Process any PDF document for indexing and querying.
--   ✅ **OpenAI Embeddings**: Leverage powerful embeddings for accurate content retrieval.
+-   ✅ **Ollama Embeddings**: Leverage powerful embeddings for accurate content retrieval.
 -   ✅ **Natural Language Queries**: Ask questions in plain language and get AI-generated answers.
 -   ✅ **Live Indexing Status**: Streamlit app displays real-time indexing progress.
 -   ✅ **LlamaIndex-Powered**: Utilizes LlamaIndex for efficient vector storage and retrieval.
@@ -22,11 +22,9 @@ Welcome to the **Simple RAG System** repository! This project provides two tools
 To get started, install the required dependencies using pip:
 
 ```
-pip install streamlit llama-index openai
+pip install streamlit llama-index llama-index-llms-ollama llama-index-embeddings-ollama
 
 ```
-
-> **Note**: Ensure you have a valid OpenAI API key configured in your environment for embeddings.
 
 * * * * *
 
@@ -49,14 +47,14 @@ Ideal for development, experimentation, and step-by-step exploration.
 2.  Update the PDF file path in the notebook to point to your desired document.
 3.  Run the cells to index the PDF and interact with the RAG system via queries.
 
-### 🌐 Streamlit App (`simple_rag_streamlit.py`)
+### 🌐 Streamlit App (`simple-rag-streamlit.py`)
 
 A user-friendly interface for real-time PDF processing and querying.
 
 1.  Run the Streamlit app:
 
     ```
-    streamlit run simple_rag_streamlit.py
+    streamlit run simple-rag-streamlit.py
 
     ```
 
