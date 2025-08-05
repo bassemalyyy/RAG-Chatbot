@@ -21,9 +21,8 @@ Welcome to the **Simple RAG System** repository! This project provides two tools
 
 To get started, install the required dependencies using pip:
 
-```
+```bash
 pip install streamlit llama-index llama-index-llms-ollama llama-index-embeddings-ollama
-
 ```
 
 * * * * *
@@ -39,9 +38,8 @@ Ideal for development, experimentation, and step-by-step exploration.
 
 1.  Launch the notebook:
 
-    ```
+    ```bash
     jupyter notebook simple-rag.ipynb
-
     ```
 
 2.  Update the PDF file path in the notebook to point to your desired document.
@@ -53,9 +51,8 @@ A user-friendly interface for real-time PDF processing and querying.
 
 1.  Run the Streamlit app:
 
-    ```
+    ```bash
     streamlit run simple-rag-streamlit.py
-
     ```
 
 2.  Upload a PDF file through the web interface.
